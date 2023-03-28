@@ -6,6 +6,7 @@ import { useGetCryptosQuery } from '../services/cryptoAPI';
 
 import { Typography, Row, Col, Statistic } from 'antd';
 import { Cryptocurrencies, News} from '../components';
+import Loader from './Loader';
 
 const { Title } = Typography;
 
@@ -13,7 +14,10 @@ const Homepage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
   const globalStats = data?.data?.stats;
 
-  if (isFetching) return;
+  // console.log('globalStats', globalStats);
+
+  if (isFetching) return <Loader/>
+
   return (
     <Fragment>
       <Title level={2} className='heading'> Global Crypto Stats</Title>
