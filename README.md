@@ -1,6 +1,6 @@
 # Cryptoverse - Crypto Currency Page
 
-![Cryptoverse](https://shiny-kulfi-15a9d5.netlify.app/)
+![Cryptoverse Screenshot](images/screenshot.png)
 
 Welcome to Cryptoverse, a web application for tracking and exploring various cryptocurrencies. This project utilizes a variety of technologies and dependencies to provide a user-friendly and interactive experience for users interested in the world of digital currencies.
 
